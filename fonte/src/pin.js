@@ -29,7 +29,7 @@ const verificarPin = () => {
         // Verifica se o número inserido é menor, maior, muito menor ou muito maior que o número correto
         if (pin < numeroCorreto && pin >= devesermaior) {
           console.log("O próximo valor deve ser maior.");
-        } else if (pin > numeroCorreto && pin < devesermenor) {
+        } else if (pin > numeroCorreto && pin <= devesermenor) {
           console.log("O próximo valor deve ser menor.");
         } else if (pin > numeroCorreto && pin <= 9999) {
           console.log("O próximo valor deve ser muito menor.");
