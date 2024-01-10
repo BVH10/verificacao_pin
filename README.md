@@ -67,7 +67,7 @@ NB: Além do Termux, podes usar outro terminais, como Kali Linux, Ubuntu, entre 
 
 O código fonte completo do sistema de verificação de PIN está disponível no repositório.
 Você pode acessá-lo através do seguinte link:
- - https://github.com/BVH10/verificacao_pin/
+ - https://github.com/BVH10/verificacao_pin/tree/main/fonte/src
 
 ## LICENSE
 MIT License
