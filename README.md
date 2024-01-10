@@ -32,9 +32,10 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
        nodejs
 
 3. Faça o download do código fonte do programa em um diretório de sua preferência.
- - git clone 
 
-5. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado.
+ - git clone https://github.com/BVH10/verificacao_pin.git
+
+5. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado ( cd verificacao_pin/fonte/src).
 
 6. Execute o seguinte comando para instalar as dependências necessárias:
 
@@ -44,6 +45,10 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
 
   - npm start
 
+6. Para abrir o código fonte do programa.
+
+ - node pin.js
+
 6. Será exibida uma mensagem solicitando que você insira um número de quatro dígitos. Digite o número desejado e pressione Enter.
 
 7. O sistema verificará se o número inserido é igual ao número correto.
@@ -51,6 +56,8 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
    - Caso contrário, o sistema fornecerá dicas indicando se o próximo valor deve ser maior, menor, muito maior ou muito menor que o número informado.
 
 8. Continue executando o sistema e fornecendo valores até acertar o PIN correto.
+
+NB: Além do Termux, podes usar outro terminais, como Kali Linux, Ubuntu, entre outros
 
 ## Código Fonte:
 
