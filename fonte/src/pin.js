@@ -9,6 +9,8 @@ const rl = readline.createInterface({
 
 let pin;
 let numeroCorreto = 6041;
+let devesermaior = numeroCorreto - 100;
+let devesermenor = numeroCorreto + 100;
 
 // Define uma função para verificar se o PIN inserido possui quatro dígitos
 const verificarPin = () => {
@@ -25,11 +27,11 @@ const verificarPin = () => {
         rl.close();
       } else {
         // Verifica se o número inserido é menor, maior, muito menor ou muito maior que o número correto
-        if (pin < numeroCorreto && pin > 5940) {
+        if (pin < numeroCorreto && pin >= devesermaior) {
           console.log("O próximo valor deve ser maior.");
         } else if (pin > numeroCorreto && pin < 6142) {
           console.log("O próximo valor deve ser menor.");
-        } else if (pin > numeroCorreto && pin <= 9999) {
+        } else if (pin > numeroCorreto && pin <= devesermenor) {
           console.log("O próximo valor deve ser muito menor.");
         } else {
           console.log("O próximo valor deve ser muito maior.");
