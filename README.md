@@ -1,8 +1,9 @@
-# verificacao_pin
+# Verificação Pin
 Programa pra verificar si o PIN inserido é correto, caso não dar dicas si o número for menor, maior, muito menor ou muito maior.
 
 ## Avaliação desenvolvida:
-Este programa cria um sistema simples para verificação de PIN em JavaScript. Ele solicita que o usuário insira um número de quatro dígitos e depois compara com um número correto predefinido. Caso o número inserido seja igual ao número correto, uma mensagem de parabéns é exibida. Caso contrário, dicas são fornecidas indicando se o próximo valor deve ser maior, menor, muito menor ou muito maior que o número informado.
+Este programa cria um sistema simples para verificação de PIN em JavaScript. Ele solicita que o usuário insira um número de quatro dígitos e depois compara com um número correto predefinido. Caso o número inserido seja igual ao número correto, uma mensagem de parabéns é exibida. Caso contrário, dicas são fornecidas indicando se o próximo valor deve ser maior, menor, muito menor ou muito maior que o número informado. Foram adicionados comentários explicando as diferentes partes do código e a lógica por trás de cada verificação.
+
 
 ## Dificuldades conhecidas:
 Durante o desenvolvimento deste programa, podem ocorrer algumas dificuldades, como:
@@ -17,12 +18,22 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
  - Execute o sistema em um ambiente de desenvolvimento JavaScript
 
 1. Certifique-se de ter o Node.js instalado em seu computador para executar o sistema.
+ - No meu caso utilizei o Termux, para instalar o Node.js:
+    - Actualiza os pacotes instalados:
+      
+       apt update
+    - Instale o node.js:
+      
+       apt install nodejs
+    - Teste si esta á funcionar:
+      
+       nodejs
 
-2. Faça o download do código fonte do programa em um diretório de sua preferência.
+3. Faça o download do código fonte do programa em um diretório de sua preferência.
 
-3. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado.
+4. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado.
 
-4. Execute o seguinte comando para instalar as dependências necessárias:
+5. Execute o seguinte comando para instalar as dependências necessárias:
 
   - npm install
 
@@ -37,14 +48,6 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
    - Caso contrário, o sistema fornecerá dicas indicando se o próximo valor deve ser maior, menor, muito maior ou muito menor que o número informado.
 
 8. Continue executando o sistema e fornecendo valores até acertar o PIN correto.
-
-## Desenvolvimento da Avaliação:
-
-A avaliação foi desenvolvida com base nas instruções fornecidas. O programa implementa um sistema de verificação de PIN simples em JavaScript, no meu caso utilizei o loop "while" para solicitar ao usuário que insira um número de quatro dígitos. Em seguida, compara o número inserido com um número correto predefinido.
-
-Foram adicionados comentários explicando as diferentes partes do código e a lógica por trás de cada verificação.
-
-Durante o desenvolvimento, as dificuldades conhecidas foram a verificação do comprimento mínimo do número inserido e a geração de números aleatórios para comparação. Essas dificuldades foram tratadas no código fornecido.
 
 ## Código Fonte:
 
