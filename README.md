@@ -40,10 +40,13 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
 6. Execute o seguinte comando para instalar as dependências necessárias:
 
   - npm install
+     - si der um erro, depois de colocar o código ignora
 
 5. Após a instalação das dependências, execute o sistema utilizando o comando:
 
   - npm start
+     - si der um erro, depois de colocar o código ignora
+
 
 6. Para abrir o código fonte do programa.
 
