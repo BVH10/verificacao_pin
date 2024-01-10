@@ -59,6 +59,10 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
 
 NB: Além do Termux, podes usar outro terminais, como Kali Linux, Ubuntu, entre outros
 
+## Tecnologias Utilizadas:
+- JavaScript
+- Termux (Para testar o codigo)
+
 ## Código Fonte:
 
 O código fonte completo do sistema de verificação de PIN está disponível no repositório.
