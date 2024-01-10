@@ -1,11 +1,11 @@
 # Verificação Pin
 Programa pra verificar si o PIN inserido é correto, caso não dar dicas si o número for menor, maior, muito menor ou muito maior.
 
-## Avaliação desenvolvida:
+## Avaliação Desenvolvida:
 Este programa cria um sistema simples para verificação de PIN em JavaScript. Ele solicita que o usuário insira um número de quatro dígitos e depois compara com um número correto predefinido. Caso o número inserido seja igual ao número correto, uma mensagem de parabéns é exibida. Caso contrário, dicas são fornecidas indicando se o próximo valor deve ser maior, menor, muito menor ou muito maior que o número informado. Foram adicionados comentários explicando as diferentes partes do código e a lógica por trás de cada verificação.
 
 
-## Dificuldades conhecidas:
+## Dificuldades Conhecidas:
 Durante o desenvolvimento deste programa, podem ocorrer algumas dificuldades, como:
 - Verificar se o número inserido possui quatro dígitos.
 - Gerar números aleatórios para comparação, caso não seja um número fixo.
