@@ -18,7 +18,9 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
  - Execute o sistema em um ambiente de desenvolvimento JavaScript
 
 1. Certifique-se de ter o Node.js instalado em seu computador para executar o sistema.
+2. 
  - No meu caso utilizei o Termux, para instalar o Node.js:
+ - 
     - Actualiza os pacotes instalados:
       
        apt update
@@ -30,10 +32,11 @@ Para utilizar o sistema de verificação de PIN, siga as instruções abaixo:
        nodejs
 
 3. Faça o download do código fonte do programa em um diretório de sua preferência.
+ - git clone 
 
-4. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado.
+5. Abra o terminal ou prompt de comando e navegue até o diretório onde o código fonte está localizado.
 
-5. Execute o seguinte comando para instalar as dependências necessárias:
+6. Execute o seguinte comando para instalar as dependências necessárias:
 
   - npm install
 
